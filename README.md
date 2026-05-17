@@ -53,7 +53,7 @@ systemctl --user status cpu-cooler
 ```
 
 ## 🤝 Compatibility
-- **Tested Hardware:** Redragon CCW-3017, Husky Glacier.
+- **Tested Hardware:** Redragon CCW-3017.
 - **VendorID:** `0x5131`
 - **ProductID:** `0x2007`
 
