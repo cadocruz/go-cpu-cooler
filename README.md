@@ -1,18 +1,15 @@
 # CPU Cooler LCD Controller (Go) - Tested on Redragon CCW-3017
-
+**OBS: Developed with AI**
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 
-This project is a high-performance, resilient Go-based controller for Water Cooler LCD displays on Linux. It monitors CPU temperature and updates the HID display in real-time. 
+This project is a resilient Go-based controller for Water Cooler LCD displays on Linux. It monitors CPU temperature and updates the HID display in real-time. 
 
 Originally written in Python, this **Go version** offers better stability, zero runtime dependencies (single binary), and lower resource footprint.
 
-![](images/cpu-cooler.jpeg)
-![](images/water-cooler-husky-glacier-argb.webp)
-
 ## ✨ Features
-- **Ultra-Resilient:** Handles system hibernation, USB disconnects, and kernel device resets automatically.
+- **Resilient:** Handles system hibernation, USB disconnects, and kernel device resets automatically.
 - **Low Footprint:** Written in Go for minimal CPU and RAM usage.
 - **Smart Sensing:** Automatic detection of AMD (`k10temp`) and Intel (`coretemp`) sensors.
 - **System Integration:** Fully integrated with `systemd` (user-mode) and `udev`.
