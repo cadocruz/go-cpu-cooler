@@ -1,5 +1,7 @@
 # CPU Cooler LCD Controller (Go) - Tested on Redragon CCW-3017
 **OBS: Developed with AI**
+
+
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
